@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="false"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="133dp"
+        android:layout_height="53dp"
+        android:bufferType="normal"
+        android:scaleX="1"
+        android:scaleY="1.2"
+        android:shadowColor="#E8E8E8"
+        android:text="@string/Boton_princi"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="414dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="1882dp"
+        android:layout_height="1135dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/final_9"
+        tools:layout_editor_absoluteX="-475dp"
+        tools:layout_editor_absoluteY="-331dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="356dp"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:text="@string/bienvenida"
+        android:textColor="#E4D8D8"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
